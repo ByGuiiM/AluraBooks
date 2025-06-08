@@ -1,5 +1,6 @@
 @import url(../styles/header.css);
 @import url(../styles/banner.css);
+@import url(../styles/carrossel.css);
 
 :root {
     --cor-fundo: #EBECEE;
@@ -7,6 +8,7 @@
     --texto-destaque: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --azul: #002F52;
 }
 
 body {
@@ -16,6 +18,7 @@ body {
     font-size: 1rem;
 }
 
+ /* Isso aqui ainda vai ser adicionado!! */
 .rodape {
     display: none;
 }
@@ -36,7 +39,7 @@ body {
 }
 
 .rodape__lista__link {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .rodape__lista__link a {
@@ -46,10 +49,7 @@ body {
 }
 
 .rodape__novidades {
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--azul);
 }
 
 .rodape__novidades__titulo {
@@ -64,7 +64,7 @@ body {
 
 .rodape__email {
     background-color: transparent;
-    border: 6px solid var(--azul-degrade);
+    border: 1px solid var(--azul);
     border-radius: 2em;
     padding: 1em;
     width: 100%;
