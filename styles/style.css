@@ -1,6 +1,8 @@
 @import url(../styles/header.css);
 @import url(../styles/banner.css);
 @import url(../styles/carrossel.css);
+@import url(../styles/topicos.css);
+@import url(../styles/novidades.css);
 
 :root {
     --cor-fundo: #EBECEE;
@@ -20,52 +22,35 @@ body {
 
  /* Isso aqui ainda vai ser adicionado!! */
 .rodape {
-    display: none;
+
 }
 
-.rodape__topico {
-    background: var(--azul-degrade);
-    color: var(--cor-branco);
-}
-
-.rodape__topico__titulo {
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.rodape__lista {
-    list-style-type: none;
-}
-
-.rodape__lista__link {
-    padding: 0.5em;
-}
-
-.rodape__lista__link a {
-    text-decoration: none;
-    color: var(--cor-branco);
-    background-color: var(--texto-destaque);
-}
-
-.rodape__novidades {
+.novidades {
     color: var(--azul);
+    padding: 1em;
 }
 
-.rodape__novidades__titulo {
+.novidades__titulo {
     font-weight: 500;
     font-size: 1.125rem;
-    margin: 1em;
 }
 
-.rodape__novidades__texto {
+.novidades__texto {
     font-weight: 300;
+    padding: 1em 0;
 }
 
-.rodape__email {
+.email {
     background-color: transparent;
     border: 1px solid var(--azul);
     border-radius: 2em;
     padding: 1em;
-    width: 100%;
+    width: 90%;
+}
+
+.email::placeholder {
+    background-image: url(../assets/Email.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 0 1em 1em 1em;
 }

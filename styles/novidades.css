@@ -1,0 +1,29 @@
+.novidades {
+    color: var(--azul);
+    padding: 1em;
+}
+
+.novidades__titulo {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.novidades__texto {
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+.email {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    border-radius: 2em;
+    padding: 1em;
+    width: 90%;
+}
+
+.email::placeholder {
+    background-image: url(../assets/Email.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 0 1em 1em 1em;
+}
