@@ -1,6 +1,14 @@
 .novidades {
-    color: var(--azul);
+    background-color: var(--cor-branco);
     padding: 1em;
+}
+
+.novidades__titulo,
+.novidades__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .novidades__titulo {
@@ -10,11 +18,10 @@
 
 .novidades__texto {
     font-weight: 300;
-    padding: 1em 0;
+    margin: 1em 0;
 }
 
 .email {
-    background-color: transparent;
     border: 1px solid var(--azul);
     border-radius: 2em;
     padding: 1em;
@@ -22,8 +29,11 @@
 }
 
 .email::placeholder {
-    background-image: url(../assets/Email.svg);
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: 0 1em 1em 1em;
+    background: url("../assets/Email.svg") no-repeat;
+    background-position: 0.2em;
+    color: var(--azul);
+    padding-left: 2em;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
