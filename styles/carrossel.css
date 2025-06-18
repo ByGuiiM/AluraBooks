@@ -78,7 +78,7 @@
     border-radius: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 1.625rem;
     }
@@ -95,5 +95,38 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
     }
 }

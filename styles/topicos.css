@@ -29,11 +29,17 @@
     font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .topico__titulo {
         font-size: 1.5rem;
     }
     .topico__lista-link {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topico {
+        padding: 2em 30vw;
     }
 }
