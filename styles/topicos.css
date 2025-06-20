@@ -36,6 +36,14 @@
     .topico__lista-link {
         font-size: 1.5rem;
     }
+
+    .topico__lista-link a {
+        transition: background 0.3s;
+    }
+
+    .topico__lista-link a:hover {
+        background-color: var(--texto-destaque-hover);
+    }
 }
 
 @media screen and (min-width: 1728px) {

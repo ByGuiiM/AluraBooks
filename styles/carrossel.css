@@ -53,6 +53,11 @@
 
 .card__imagem {
     border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+.card__imagem:hover {
+    transform: scale(1.05);
 }
 
 .card__botoes {
@@ -76,6 +81,12 @@
     font-weight: 700;
     text-decoration: none;
     border-radius: 5px;
+    transition: background 0.3s , transform 0.3s;
+}
+
+.botoes__ancora:hover {
+    background-color: var(--texto-destaque-hover);
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1024px) {
